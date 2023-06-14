@@ -25,3 +25,67 @@ body {
    a{
     text-decoration: none;
   }
+
+  body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .newspaper-container {
+    background-color: white;
+    box-shadow: 0 0 5px #ddd;
+    border: 2px solid black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    font-family: "Abril Fatface", cursive;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, a {
+    color: black;
+  }
+  
+  .date {
+    color: #dd3232;
+  }
+  
+  nav a {
+    color: #777;
+  }
+  
+  .newspaper-container main img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  .more-articles section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .more-articles section img {
+    width: calc(50% - 10px);
+    border: 2px solid black;
+  }
+  
+  .more-articles section p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  element.style {
+    box-sizing: border-box;
+    width: 7.5in;
+    height: 7.9in;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: initial;
+}
